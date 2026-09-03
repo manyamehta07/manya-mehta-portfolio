@@ -60,6 +60,15 @@ export const PROJECTS = [
     tech: ['Python', 'Data Analysis', 'Visualization'],
     href: 'https://github.com/manyamehta07/IPL-analysis',
   },
+    {
+    number: '03',
+    title: 'THE LUXURY EDIT',
+    category: 'Web × Editorial × Luxury',
+    description:
+      'An immersive digital fashion editorial exploring what luxury means, how fashion houses create desire, and the stories behind the world’s most influential luxury brands.',
+    tech: ['Next.js', 'React', 'Editorial Design', 'Web Development'],
+    href: 'https://luxury-edit.vercel.app/',
+  },
 ]
 
 export const TOOLKIT_COLUMNS = [

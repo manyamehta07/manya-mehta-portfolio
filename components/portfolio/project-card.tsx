@@ -72,7 +72,7 @@ export function ProjectCard({
             rel="noopener noreferrer"
             className="group/link mt-10 inline-flex items-center gap-3 border-b border-foreground/40 pb-2 font-sans text-[12px] uppercase tracking-wide-label text-foreground transition-colors hover:border-accent hover:text-accent"
           >
-            View on GitHub
+            {title === 'THE LUXURY EDIT' ? 'View Live Edit' : 'View on GitHub'}
             <ArrowUpRight
               className="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1 group-hover/link:-translate-y-1"
               strokeWidth={1.5}

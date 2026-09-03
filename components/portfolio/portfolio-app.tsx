@@ -31,15 +31,30 @@ export function PortfolioApp() {
   const [open, setOpen] = useState(false)
 
   const navigate = useCallback((key: SectionKey) => {
-    setActive(key)
-    // next frame -> trigger enter transition
-    requestAnimationFrame(() => requestAnimationFrame(() => setOpen(true)))
-  }, [])
+  setActive(key)
+  window.history.pushState({ section: key }, '', `#${key}`)
+
+  requestAnimationFrame(() =>
+    requestAnimationFrame(() => setOpen(true))
+  )
+}, [])
 
   const close = useCallback(() => {
+  setOpen(false)
+  window.setTimeout(() => setActive(null), 520)
+}, [])
+useEffect(() => {
+  const handlePopState = () => {
     setOpen(false)
     window.setTimeout(() => setActive(null), 520)
-  }, [])
+  }
+
+  window.addEventListener('popstate', handlePopState)
+
+  return () => {
+    window.removeEventListener('popstate', handlePopState)
+  }
+}, [])
 
   // lock body scroll while overlay is present
   useEffect(() => {

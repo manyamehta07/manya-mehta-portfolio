@@ -27,8 +27,8 @@ export function HeroCover({ onExplore }: { onExplore: () => void }) {
             className="mt-8 font-sans text-[13px] uppercase tracking-editorial text-foreground/70 animate-rise"
             style={{ animationDelay: '240ms' }}
           >
-            Technology <span className="text-accent">×</span> Creativity{' '}
-            <span className="text-accent">×</span> Business
+            Business <span className="text-accent">×</span> Marketing{' '}
+            <span className="text-accent">×</span> Data
           </p>
 
           <div
@@ -41,7 +41,7 @@ export function HeroCover({ onExplore }: { onExplore: () => void }) {
             <dl className="font-sans text-[10px] uppercase tracking-wide-label text-muted-foreground">
               <div className="flex flex-col gap-1 border-l border-border pl-4">
                 <dt className="sr-only">Field of study</dt>
-                <dd>Information Technology</dd>
+                <dd>B.Tech Information Technology</dd>
                 <dd>VIT Vellore</dd>
                 <dd>India</dd>
               </div>
@@ -79,7 +79,7 @@ export function HeroCover({ onExplore }: { onExplore: () => void }) {
         <div className="relative md:col-span-5">
           <div className="relative animate-overlay-in">
             <div className="pointer-events-none absolute -left-6 top-8 z-10 hidden font-sans text-[10px] uppercase tracking-editorial text-espresso md:block [writing-mode:vertical-rl]">
-              Curious · Creative · Always Exploring
+              Business · Marketing · Data
             </div>
             <div className="relative aspect-[4/5] w-full overflow-hidden bg-stone">
               <Image

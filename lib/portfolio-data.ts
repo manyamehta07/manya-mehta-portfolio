@@ -11,8 +11,8 @@ export const NAV_ITEMS: { key: SectionKey; label: string }[] = [
   { key: 'about', label: 'About' },
   { key: 'vision', label: 'Vision' },
   { key: 'work', label: 'Work' },
-  { key: 'toolkit', label: 'Toolkit' },
-  { key: 'build', label: 'What I Like To Build' },
+  { key: 'toolkit', label: 'Capabilities' },
+  { key: 'build', label: 'What I Want To Work On' },
   { key: 'beyond', label: 'Beyond' },
   { key: 'contact', label: 'Contact' },
 ]
@@ -26,12 +26,12 @@ export const EXPLORE_PANELS: {
   { key: 'about', number: '01', title: 'About', caption: 'Who I am.' },
   { key: 'vision', number: '02', title: 'Vision', caption: "Where I'm going." },
   { key: 'work', number: '03', title: 'Work', caption: "What I've built." },
-  { key: 'toolkit', number: '04', title: 'Toolkit', caption: 'What I know.' },
+  { key: 'toolkit', number: '04', title: 'Capabilities', caption: 'What I can work with.' },
   {
     key: 'build',
     number: '05',
-    title: 'What I Like To Build',
-    caption: 'What I want to create.',
+    title: 'What I Want To Work On',
+    caption: 'Where I want to contribute.',
   },
   {
     key: 'beyond',
@@ -60,47 +60,44 @@ export const PROJECTS = [
     tech: ['Python', 'Data Analysis', 'Visualization'],
     href: 'https://github.com/manyamehta07/IPL-analysis',
   },
-    {
-    number: '03',
-    title: 'THE LUXURY EDIT',
-    category: 'Web × Editorial × Luxury',
-    description:
-      'An immersive digital fashion editorial exploring what luxury means, how fashion houses create desire, and the stories behind the world’s most influential luxury brands.',
-    tech: ['Next.js', 'React', 'Editorial Design', 'Web Development'],
-    href: 'https://luxury-edit.vercel.app/',
-  },
 ]
+
+export const TATTVA = {
+  title: 'TATTVA × Past Modern',
+  eyebrow: 'Speculative Launch Campaign',
+  description:
+    'A self-initiated brand strategy and creative campaign imagining how a contemporary Indian fashion brand could launch a new accessory category through consumer insight, positioning, creator strategy and experiential marketing.',
+  capabilities: ['Consumer Insight', 'Brand Strategy', 'Campaign Development', 'Creator Strategy', 'Experiential', 'Measurement'],
+    images: {
+    hero: '/images/tattva-hero.png',
+    element: '/images/tattva-elements.png',
+    installation: '/images/tattva-installation.png',
+    styling: '/images/tattva-styling.png',
+  },
+
+  deck: '/case-studies/TATTVA_Case_Study.pdf',
+}
+
 
 export const TOOLKIT_COLUMNS = [
   {
-    label: 'Technology',
-    items: ['C++', 'Python', 'Java', 'HTML', 'CSS', 'Operating Systems — fundamentals'],
+    label: 'Business & Strategy',
+    items: ['Business Models', 'Market & Competitor Thinking', 'Consumer Insight', 'Problem Framing', 'Strategic Thinking'],
+  },
+  {
+    label: 'Marketing & Brand',
+    items: ['Brand Strategy', 'Campaign Development', 'Content Strategy', 'Creator / Influencer Thinking', 'Consumer Behaviour'],
   },
   {
     label: 'Data & Analytics',
-    items: ['Data Analysis', 'Excel', 'SQL', 'Data Visualization', 'Analytical Thinking'],
+    items: ['SQL', 'Excel', 'Python', 'Data Analysis', 'Visualization', 'Analytical Thinking'],
   },
   {
-    label: 'Creative',
-    items: [
-      'Visual Design',
-      'UI Design',
-      'Canva',
-      'Content & Creative Direction',
-      'Presentation Design',
-    ],
-  },
-  {
-    label: 'Currently Exploring',
-    items: [
-      'Web Development',
-      'Advanced Data Analytics',
-      'UI/UX',
-      'Digital Products',
-      'Creative Technology',
-    ],
+    label: 'Operations & Technology',
+    items: ['Process Thinking', 'Project Organization', 'Technology Fundamentals', 'Web Development', 'C++ / Java'],
   },
 ]
+
 
 export const EDUCATION = [
   {
@@ -134,22 +131,23 @@ export const INTERESTS = [
 
 export const BUILD_CATEGORIES = [
   {
-    label: 'Web',
-    text: 'Websites, landing pages & digital experiences',
+    label: 'Business Strategy',
+    text: 'Understanding markets, customers, business models and the decisions that move an idea forward.',
   },
   {
-    label: 'Design',
-    text: 'Visual design, UI & creative direction',
+    label: 'Marketing',
+    text: 'Brand positioning, consumer insight, campaign thinking, creator strategy and communication.',
   },
   {
-    label: 'Content',
-    text: 'Content design, organization & creative strategy',
+    label: 'Operations',
+    text: 'Turning ideas into workable systems — planning, execution, coordination and continuous improvement.',
   },
   {
     label: 'Data',
-    text: 'Analytics, visualization & turning information into something understandable',
+    text: 'Using SQL, Excel and Python to turn business questions into evidence and actionable insight.',
   },
 ]
+
 
 export const PERSONALITY = [
   {

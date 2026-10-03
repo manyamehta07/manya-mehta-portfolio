@@ -16,12 +16,12 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  title: 'Manya Mehta — Technology × Creativity × Business',
+  title: 'Manya Mehta — Business × Marketing × Data',
   description:
     'The personal editorial portfolio of Manya Mehta. Curious by nature, creative by instinct — an Information Technology student exploring the space where technology, design and business meet.',
   generator: 'v0.app',
   openGraph: {
-    title: 'Manya Mehta — Technology × Creativity × Business',
+    title: 'Manya Mehta — Business × Marketing × Data',
     description:
       'Curious by nature. Creative by instinct. Always exploring. The editorial portfolio of Manya Mehta.',
     type: 'website',

@@ -29,7 +29,7 @@ export function ContactContent() {
 
         <Reveal delay={220}>
           <p className="mt-6 max-w-md font-sans text-sm leading-relaxed text-ivory/60">
-            Available for freelance web, content and creative digital projects.
+            Open to internships and project-based opportunities across business, marketing, operations, brand strategy and analytics.
           </p>
         </Reveal>
       </div>
@@ -105,7 +105,7 @@ export function ContactContent() {
             Manya Mehta
           </span>
           <span className="font-sans text-[11px] uppercase tracking-editorial text-gold">
-            Technology × Creativity × Business
+            Business × Marketing × Data
           </span>
         </div>
       </Reveal>

@@ -17,35 +17,27 @@ export function AboutContent() {
           </Reveal>
           <Reveal delay={80}>
             <h1 className="font-serif text-[clamp(2.4rem,6vw,5rem)] leading-[0.98] tracking-tight text-foreground">
-              Curious by nature. <br />
-              Creative by instinct. <br />
-              <span className="italic text-espresso">Tech by choice.</span>
+              Business curious. <br />
+              Data minded. <br />
+              <span className="italic text-espresso">Tech enabled.</span>
             </h1>
           </Reveal>
           <Reveal delay={160}>
             <div className="mt-10 space-y-6 font-sans text-lg leading-relaxed text-foreground/80 md:mt-12 md:text-xl">
               <p>
-                I&apos;m Manya — an Information Technology student who has never really been
-                interested in staying inside one box.
+                I&apos;m Manya — an Information Technology student interested in the business side of how things work.
               </p>
               <p>
-                I love technology, but I&apos;m equally drawn to design, fashion, business, data,
-                ideas and the stories behind the things people create. I like learning something
-                new just because it makes me curious, taking it apart, understanding how it works,
-                and then finding a way to make it my own.
+                I&apos;m especially drawn to business strategy, marketing, operations and data. I want to understand the customer, the market and the numbers — then connect those pieces to a decision that can actually be executed.
               </p>
               <p>
-                For me, creativity isn&apos;t separate from technology. I enjoy the space where the
-                two meet — where an idea can become a product, a visual experience, a brand, or
-                something people actually use.
+                My technical background is the enabler, not the end goal. SQL, Excel, Python and technology help me investigate problems, structure information and communicate better decisions.
               </p>
               <p>
-                I&apos;m still exploring, experimenting and figuring out where all of these interests
-                will take me. And honestly, that&apos;s my favourite part.
+                I&apos;m using college to explore different sides of this space through projects, campaigns, internships and real-world experiments — learning what kind of business problems I want to spend my career solving.
               </p>
               <p className="font-serif text-2xl italic text-espresso">
-                I&apos;m here to learn a little about everything that fascinates me — and build
-                along the way.
+                I want to become someone who can move from a business question to an insight, and from an insight to action.
               </p>
             </div>
           </Reveal>

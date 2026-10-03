@@ -28,7 +28,7 @@ export function ExploreSection({
           </div>
           <Reveal delay={160}>
             <p className="max-w-xs font-sans text-sm leading-relaxed text-muted-foreground">
-              Six chapters — each a different lens on how I think, learn and create.
+              Six chapters — each a different lens on how I think, learn, analyse and build.
             </p>
           </Reveal>
         </div>

@@ -20,8 +20,8 @@ const TITLES: Record<SectionKey, string> = {
   about: 'About',
   vision: 'Vision',
   work: 'Selected Work',
-  toolkit: 'The Toolkit',
-  build: 'What I Like To Build',
+  toolkit: 'Capabilities',
+  build: 'What I Want To Work On',
   beyond: 'Beyond The Code',
   contact: 'Contact',
 }

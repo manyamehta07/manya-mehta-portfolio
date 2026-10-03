@@ -14,7 +14,7 @@ export function VisionContent() {
 
       <Reveal delay={80}>
         <h1 className="max-w-4xl font-serif text-[clamp(2.6rem,7vw,6rem)] leading-[0.96] tracking-tight text-foreground">
-          I don&apos;t have one box. <span className="italic text-espresso">And I don&apos;t want one.</span>
+          I&apos;m building towards the space where <span className="italic text-espresso">business meets data.</span>
         </h1>
       </Reveal>
 
@@ -29,26 +29,18 @@ export function VisionContent() {
         <div className="md:col-span-8">
           <Reveal>
             <div className="space-y-6 font-sans text-lg leading-relaxed text-foreground/80 md:text-xl">
-              <p>I want to know enough about the world to never stop being curious about it.</p>
+              <p>I&apos;m exploring a career across business strategy, marketing, operations and business analytics.</p>
               <p>
-                I don&apos;t have one perfectly defined path — and I don&apos;t think I need one
-                yet.
+                I&apos;m interested in the questions behind a business: Who is the customer? What do they value? Where does growth come from? What is slowing the business down? Which decision should be made next?
               </p>
               <p>
-                What I do know is that I want to build a life around learning. I want to understand
-                technology deeply enough to build with it, business well enough to turn ideas into
-                something real, design well enough to make those ideas meaningful, and the world
-                around me well enough to always have something new to question.
+                Data is becoming the way I answer those questions. I&apos;m building my analytical foundation in SQL, Excel and Python while learning how to translate numbers into commercial and operational insight.
               </p>
               <p>
-                I&apos;m drawn to the intersection of technology, creativity and business, but
-                I&apos;m also interested in everything that exists around them — fashion, luxury,
-                culture, people, brands, stories and ideas.
+                Marketing gives me another lens: consumer behaviour, positioning, brands, campaigns and the way people respond to ideas. Operations connects that thinking to execution — systems, processes, coordination and improvement.
               </p>
               <p>
-                My goal isn&apos;t to know everything. It&apos;s to become someone who is deeply
-                knowledgeable about the things that matter to me, curious about everything else,
-                and never afraid to learn something completely new.
+                I&apos;m deliberately exploring before specialising. My goal over the next few years is to collect real evidence about the kinds of business problems I enjoy solving and become very good at solving them.
               </p>
             </div>
           </Reveal>
@@ -58,9 +50,9 @@ export function VisionContent() {
       <Reveal delay={120}>
         <blockquote className="mt-24 border-t border-border pt-12">
           <p className="font-serif text-[clamp(2rem,5vw,4rem)] leading-[1.05] tracking-tight text-foreground">
-            Maybe my path won&apos;t be linear.
+            I don&apos;t need the title figured out yet.
             <br />
-            <span className="italic text-accent">I&apos;d rather it be interesting.</span>
+            <span className="italic text-accent">I need the problems worth solving.</span>
           </p>
         </blockquote>
       </Reveal>

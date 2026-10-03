@@ -15,7 +15,7 @@ export function ToolkitContent() {
         </Reveal>
         <Reveal delay={80}>
           <h1 className="font-serif text-[clamp(2.2rem,5.5vw,4.4rem)] leading-[1] tracking-tight text-foreground">
-            I&apos;m less interested in collecting tools — <span className="italic text-espresso">and more interested in what I can create with them.</span>
+            I&apos;m building the toolkit to <span className="italic text-espresso">understand a business from multiple angles.</span>
           </h1>
         </Reveal>
       </div>
@@ -87,16 +87,13 @@ export function ToolkitContent() {
           <div className="space-y-6 font-sans text-lg leading-relaxed text-foreground/80 md:text-xl">
             <p>I don&apos;t really believe learning should stop when the lecture does.</p>
             <p>
-              Alongside my degree, I&apos;ve been exploring courses, tutorials and projects through
-              platforms like Google and YouTube, particularly around Data Analytics, Cybersecurity,
-              Web Development and technology.
+              Alongside my degree, I&apos;m building practical skills across business, marketing and analytics — especially SQL, Excel, Python, consumer thinking and campaign strategy — while keeping a strong technical foundation.
             </p>
             <p>
-              Some things I&apos;m learning because they&apos;re useful. Others, simply because
-              I&apos;m curious.
+              I&apos;m prioritising skills that let me move from a business question to evidence, and from evidence to an executable recommendation.
             </p>
             <p className="font-serif text-2xl italic text-espresso">
-              Either way, I&apos;m always learning something.
+              The goal is not a longer skills list. It is better business judgment.
             </p>
           </div>
         </Reveal>

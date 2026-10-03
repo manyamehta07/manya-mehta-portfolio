@@ -32,14 +32,12 @@ export function IntroSection({ onReadMore }: { onReadMore: () => void }) {
           </Reveal>
           <Reveal delay={80}>
             <h2 className="font-serif text-[clamp(2rem,5vw,3.6rem)] leading-[1.02] tracking-tight text-foreground">
-              Curious. Creative. <span className="italic text-espresso">Always learning.</span>
+              Business-minded. Data-aware. <span className="italic text-espresso">Curious about people.</span>
             </h2>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-8 max-w-xl font-sans text-lg leading-relaxed text-foreground/75">
-              I&apos;m an Information Technology student who has never really been interested in
-              staying inside one box. I love technology, but I&apos;m equally drawn to design,
-              fashion, business, data, ideas and the stories behind the things people create.
+              I&apos;m an Information Technology student building towards the intersection of business, marketing, operations and data. I like understanding how people, products and businesses work — and then using technology and analytics to make better decisions.
             </p>
           </Reveal>
           <Reveal delay={240}>

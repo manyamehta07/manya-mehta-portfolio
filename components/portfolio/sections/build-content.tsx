@@ -10,17 +10,17 @@ export function BuildContent() {
         <Reveal>
           <Label className="mb-8">
             <span className="h-px w-8 bg-accent" />
-            What I Like To Build
+            What I Want To Work On
           </Label>
         </Reveal>
         <Reveal delay={80}>
           <h1 className="font-serif text-[clamp(2.4rem,6vw,5rem)] leading-[0.98] tracking-tight text-foreground">
-            Digital experiences <span className="italic text-espresso">with a point of view.</span>
+            Business problems <span className="italic text-espresso">worth solving.</span>
           </h1>
         </Reveal>
         <Reveal delay={140}>
           <p className="mt-10 max-w-3xl font-sans text-lg leading-relaxed text-foreground/75 md:text-xl">
-            I&apos;m interested in creating things that sit somewhere between technology, visual design and content. That could be a website that makes a brand feel more interesting, a visual identity that communicates an idea, a content system that actually feels organized, or a digital experience that makes someone want to stay a little longer.
+            I&apos;m interested in work where strategy meets execution: understanding customers and markets, shaping a brand or campaign, improving how something operates, and using data to make the next decision clearer. I like work that moves between analysis and action.
           </p>
         </Reveal>
       </div>
@@ -38,7 +38,7 @@ export function BuildContent() {
 
       <Reveal delay={120}>
         <p className="mt-16 max-w-2xl font-serif text-2xl italic leading-snug text-espresso md:text-3xl">
-          I&apos;m still figuring out exactly where I want to take all of this. For now, I&apos;m interested in making things, learning fast, and seeing where the combination takes me.
+          I&apos;m using the next few years to test these interests through real projects, internships and experiments — then specialise where the work genuinely fits me.
         </p>
       </Reveal>
     </div>

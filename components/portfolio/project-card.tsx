@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from './reveal'
 
@@ -23,11 +24,10 @@ export function ProjectCard({
   return (
     <Reveal>
       <article className="group grid grid-cols-1 gap-8 border-t border-border py-14 md:grid-cols-12 md:gap-12 md:py-20">
-        {/* Visual preview — typographic editorial cover */}
         <div className={flip ? 'md:order-2 md:col-span-5' : 'md:col-span-5'}>
           <div className="relative flex aspect-[4/3] w-full flex-col justify-between overflow-hidden bg-espresso p-8 text-ivory transition-transform duration-500 group-hover:scale-[0.99]">
             <div className="flex items-center justify-between font-sans text-[10px] uppercase tracking-editorial text-ivory/60">
-              <span>Case Study</span>
+              <span>Data Case Study</span>
               <span>{number}</span>
             </div>
             <span className="font-serif text-4xl italic leading-none text-ivory md:text-5xl">
@@ -42,7 +42,6 @@ export function ProjectCard({
           </div>
         </div>
 
-        {/* Details */}
         <div className={flip ? 'md:order-1 md:col-span-7 md:pr-10' : 'md:col-span-7 md:pl-6'}>
           <span className="font-sans text-[11px] uppercase tracking-editorial text-accent">
             Project {number}
@@ -72,7 +71,7 @@ export function ProjectCard({
             rel="noopener noreferrer"
             className="group/link mt-10 inline-flex items-center gap-3 border-b border-foreground/40 pb-2 font-sans text-[12px] uppercase tracking-wide-label text-foreground transition-colors hover:border-accent hover:text-accent"
           >
-            {title === 'THE LUXURY EDIT' ? 'View Live Edit' : 'View on GitHub'}
+            View on GitHub
             <ArrowUpRight
               className="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1 group-hover/link:-translate-y-1"
               strokeWidth={1.5}

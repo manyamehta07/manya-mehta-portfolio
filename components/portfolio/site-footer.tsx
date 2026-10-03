@@ -36,7 +36,7 @@ export function SiteFooter({ onNavigate }: { onNavigate: (key: SectionKey) => vo
             MM<span className="text-gold">.</span>
           </span>
           <span className="font-sans text-[10px] uppercase tracking-editorial text-ivory/40">
-            Manya Mehta — Technology × Creativity × Business
+            Manya Mehta — Business × Marketing × Data
           </span>
           <span className="font-sans text-[10px] uppercase tracking-editorial text-ivory/40">
             © {new Date().getFullYear()}
